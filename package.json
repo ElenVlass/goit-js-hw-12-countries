@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElenVlass/goit-js-hw-12-countries"
+    "url": "git+https://github.com/ElenVlass/goit-js-hw-12-countries.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Elen Vlasenko <olefelena@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ElenVlass/goit-js-hw-12-countries/issues"
+    "url": "https://github.com/ElenVlass/goit-js-hw-12-countries.git"
   },
   "homepage": "https://elenvlass.github.io/goit-js-hw-12-countries",
   "devDependencies": {

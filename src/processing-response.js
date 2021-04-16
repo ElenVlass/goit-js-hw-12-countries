@@ -2,11 +2,12 @@ import './styles.css';
 import refs from './refs';
 import renderCountryCard from './render-card';
 import countriesList from './countries-list.hbs';
-import { showError, showSuccess } from './show-error';
+import { showError, showSuccess, showNotice } from './show-error';
 
 
 export default function processingResponse(response) {
     if (response.length <= 10 && response.length > 1) {
+        showNotice('Specify your request, please!')
         renderCountiesList(response);
     } else if (response.length === 1) {
         showSuccess('Success!')

@@ -22,7 +22,7 @@ body {
   background-image: url('./images/bg-pattern.png');
 }
 
-input[type='text'] {
+#country-name {
   width: 25%;
   padding: 8px 20px;
   margin: 8px 0;
