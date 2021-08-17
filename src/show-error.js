@@ -9,7 +9,9 @@ defaults.delay= 2000;
 
 export function showError (errorNotification) {
   error({
-            text: errorNotification,
+    text: errorNotification,
+    
+    
 })  
 };
 
